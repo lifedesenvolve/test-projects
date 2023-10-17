@@ -1,0 +1,111 @@
+body {
+	font-family: Arial;
+	font-size: 16px;
+}
+.ui.container {
+    width: 1320px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-bottom: 30px
+}
+
+
+
+
+
+
+/*Banneres*/
+.banner001 {
+	display: flex;
+	justify-content: space-between !important;
+}
+
+.banleft {
+	background-image: url(../images/banner-01.png);
+	background-repeat: no-repeat;
+	width: 630px;
+    height: 255px;
+    position: relative;
+}
+.banright {
+	background-image: url(../images/banner-02.png);
+	background-repeat: no-repeat;
+	width: 630px;
+    height: 255px;
+    position: relative;
+}
+.banleft p, .banright p {
+    color: #FFF;
+    font-size: 32px;
+    padding: 45px 127px 30px 181px;
+}
+.arrowtop {
+    background-image: url(../images/ico-arrow.png);
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    width: 53px;
+    height: 53px;
+}
+/*Banneres*/
+
+
+/*Calculadora*/
+
+.calculadora {
+	background-image: url(../images/medidas.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 1172px;
+    height: 294px;
+    position: relative;
+    margin: 0 auto
+}
+.calculadora p {
+    color: #FFF;
+    font-size: 32px;
+    padding: 70px 127px 30px 719px;
+}
+.calculadora p span {
+    display: block;
+    font-size: 16px;
+    margin-top: 30px;
+}
+.arrowtopcalc {
+    background-image: url(../images/ico-arrow.png);
+    position: absolute;
+    top: 25px;
+    right: 100px;
+    width: 53px;
+    height: 53px;
+}
+
+/*Calculadora*/
+
+/*Newsletter*/
+
+.newsletter {
+	background-image: url(../images/newsletter.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 1172px;
+    height: 294px;
+    position: relative;
+    margin: 0 auto
+}
+
+.newsletter p {
+    padding: 30px;
+    text-align: left;
+    color: #FFF;
+    font-size: 26px;
+    margin-left: 350px
+}
+
+.newsletter p span {
+    display: block;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+/*Newsletter*/
