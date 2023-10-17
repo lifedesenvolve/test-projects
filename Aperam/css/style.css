@@ -10,31 +10,27 @@ body {
 }
 
 
-
-
-
-
 /*Banneres*/
 .banner001 {
 	display: flex;
 	justify-content: space-between !important;
 }
 
-.banleft {
-	background-image: url(../images/banner-01.png);
+.banner-conheca {
+	background-image: url(../images/banner-conheca.png);
 	background-repeat: no-repeat;
 	width: 630px;
     height: 255px;
     position: relative;
 }
-.banright {
-	background-image: url(../images/banner-02.png);
+.banner-cadastre {
+	background-image: url(../images/banner-cadastre.png);
 	background-repeat: no-repeat;
 	width: 630px;
     height: 255px;
     position: relative;
 }
-.banleft p, .banright p {
+.banner-conheca p, .banner-cadastre p {
     color: #FFF;
     font-size: 32px;
     padding: 45px 127px 30px 181px;
@@ -50,10 +46,10 @@ body {
 /*Banneres*/
 
 
-/*Calculadora*/
+/*banner-calcule*/
 
-.calculadora {
-	background-image: url(../images/medidas.png);
+.banner-calcule {
+	background-image: url(../images/banner-calcule.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	width: 1172px;
@@ -61,12 +57,12 @@ body {
     position: relative;
     margin: 0 auto
 }
-.calculadora p {
+.banner-calcule p {
     color: #FFF;
     font-size: 32px;
     padding: 70px 127px 30px 719px;
 }
-.calculadora p span {
+.banner-calcule p span {
     display: block;
     font-size: 16px;
     margin-top: 30px;
@@ -80,11 +76,11 @@ body {
     height: 53px;
 }
 
-/*Calculadora*/
+/*banner-calcule*/
 
-/*Newsletter*/
+/*banner-news*/
 
-.newsletter {
+.banner-news {
 	background-image: url(../images/newsletter.png);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -94,7 +90,7 @@ body {
     margin: 0 auto
 }
 
-.newsletter p {
+.banner-news p {
     padding: 30px;
     text-align: left;
     color: #FFF;
@@ -102,10 +98,10 @@ body {
     margin-left: 350px
 }
 
-.newsletter p span {
+.banner-news p span {
     display: block;
     font-size: 16px;
     margin-top: 20px;
 }
 
-/*Newsletter*/
+/*banner-news*/
